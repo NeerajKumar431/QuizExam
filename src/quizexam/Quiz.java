@@ -46,7 +46,7 @@ public class Quiz {
             System.out.println("Do you want to take it again");
             repeat1 = scanner2.nextLine();
             repeat = scanner2.nextLine();
-        } while (repeat.equals("yes"));
+        } while (repeat.equalsIgnoreCase("yes"));
         
         }else{
             System.out.println("Invaled Account");
